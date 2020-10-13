@@ -39,7 +39,7 @@ namespace :helpy do
     end
 
     if AppSettings["email.mail_service"] == 'imap'
-      # puts 'imap config found'
+      puts 'imap config found'
       imap_port = AppSettings['email.imap_port']
       if imap_port.empty?
         imap_port = AppSettings['email.imap_security'] == 'ssl' ? 993 : 143

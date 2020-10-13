@@ -11,6 +11,6 @@ gemspec
 # your gem to rubygems.org.
 
 # To use a debugger
-# gem 'byebug', group: [:development, :test]
-
-gem 'deface'
+gem 'byebug', group: [:development, :test]
+gem 'rb-readline', group: [:development]
+# gem 'deface'

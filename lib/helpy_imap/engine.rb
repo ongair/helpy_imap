@@ -1,4 +1,4 @@
-require 'deface'
+# require 'deface'
 require 'mail'
 require 'mailman'
 
